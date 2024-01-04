@@ -1,0 +1,30 @@
+TPS 1:
+1. A cache is utilized to minimize the average cost of accessing data from the main memory by storing copies of frequently used data closer to the processor core. The cache is smaller, faster, and located nearby, making data access faster.
+2. DONE
+3. DONE
+4. The function for the number of bits in the offset given the block size is log_2(blockSize), which results in 4 bits for 16B. However, this is not practical as it would store 4 bytes of data for only 1 byte.
+5. 6 bits; log_2(blocks)
+6. Yes: sizeofcache = numberofblocks * blocksize
+7. Tags are used to identify the data stored in the cache.
+8. 
+    a. 2^20 = 1048575
+    b. 3
+    c. 16
+    d. 4
+    e. 13 bits -> 20-3-4
+    f. DONE
+    g. 13 tag+ 1v+ 1d+8*8=79
+
+TPS 2:
+1. Each block of main memory is mapped to a fixed location in the cache. If two different blocks map to the same location and are continuously referenced, they will keep swapping in and out (resulting in thrashing).
+2. DONE
+3. For the given number of blocks (2^10) and block size (2^2), the index bits for sets can be calculated as log_2(numberofblocks/blocksize) = 8 bits.
+4. 
+    a. 2^20 = 1,048,576
+    b. 3
+    c. 16
+    d. 8
+    e. 3
+    f. 14
+    g. DONE
+    h. 14 + 1 + 1 + 8 * 8 = 80

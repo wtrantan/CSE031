@@ -1,0 +1,25 @@
+TPS:
+TPS 1:
+1. Kaelin, Edmond, Andrew
+2. https://www.youtube.com/watch?v=s3ii48qYBxA, https://www.youtube.com/watch?v=SkB-eRCzWIU, https://www.youtube.com/watch?v=vhZLTp6N4XA
+3. done
+4. done
+
+TPS 2: 
+1. Ctrl+alt+TP
+    a. yes ctrl+alt+N
+    b.to use the terminal on the server side, system side and to run the server.
+2. dir, ls to check the contents of the current directory.
+3. cd ~/Desktop
+4. mkdir CSE31
+
+TPS 3:
+1. https://www.geeksforgeeks.org/gcc-command-in-linux-with-examples/, https://www.educba.com/gcc-command-in-linux/
+2. done
+3. gcc main.c -o main
+4. when it creates an executeable file and there is no error in the terminal
+5. -c compiles the source files to the object files without the need to link to any other object files
+6. -g is for debugging code.
+7. mv main.c cselab1
+8. creates an executeable file named a.out
+9. .\a.out to run the code.

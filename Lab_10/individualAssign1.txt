@@ -1,0 +1,7 @@
+1. My CPU has 3 caches L1D, L1I, L2U
+2. L1D: 128KB, L1I: 128KB, L2: 8MB
+3, All 3 are 64B
+4. L1D: 8 associative, L1I: 8 associative, L2U: 16 Associative
+5. Index = (2,048 / 8), x = 8 bits
+Tag Bits = 20 bits - 8 bits - 6 bits = 6 bits
+Offset Bits = 2^x = (64B), x = 6 bits

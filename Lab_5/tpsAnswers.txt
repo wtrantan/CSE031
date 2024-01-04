@@ -1,0 +1,25 @@
+TPS 1
+1. MIPS Assembler and Runtime Simulator
+2. done
+3. done
+4. done
+5 
+a. go to File then Open then the file name which is a .s or .asm
+b. Click the assemble button or run then assemble
+c. Click the run button which is the green arrow
+d. no
+e. Click the run step at a time button which is the green arrow with a 1
+f. Click the reset MIPS data button, its the 2 green arrows pointing to the left, and then run button again.
+
+TPS 2
+1. 
+.text: is subsequent items that is stored in text segment at next available address
+.word: it stores the listed values as 32 bit word boundary
+.data: is subsequent items that is stored in data segment at next available address
+2. Branches at finish's address if $t3 and $0 are equal
+3. It will jump unconditionally to statement at fib address
+4. Click the execute tab then scroll to line 15 and click the bkpt checkbox
+5. Click the run step at a time button
+6. Under the registers tab you can click any registers value and manually input values
+7. 0x10010000
+8. The code thats in register $v0 will have an instruction for syscall to do. 1 will print integer and 10 will exit

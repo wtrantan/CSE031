@@ -1,0 +1,18 @@
+TPS 1:
+1. 
+Static: Global variable
+Stack: local variable
+Heap: Dynamic storage variables
+
+2. 
+    a. 3 variables
+    b. 2 pointers. one pointer is pointed to nums and the other one is pointed to the pointer to nums
+    c. num is on the stack while the ptr and handle are on the heap
+    d. The pointer points to the heap
+
+3. done
+4. done
+TPS 2.
+1. done
+2. done
+3. The head is stored far from the valies pointed by it. When printed the head is shown in a different place compared to the address of the values.

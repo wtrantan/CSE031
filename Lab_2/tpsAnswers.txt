@@ -1,0 +1,21 @@
+TPS 1:
+1. John Espinosa, Kaelin Shih, Elgin Li
+2. https://www.youtube.com/watch?v=ABVeAXcRIJg, https://www.youtube.com/watch?v=u6iXfpBDU3w, https://www.youtube.com/watch?v=pdfLW9PSrhQ&t=324s
+3. done
+4. done
+
+TPS 2:
+1. cc -g punishment.c -o punish
+2. lldb punish
+3. type "run"
+4. Breakpoints is the place where the code would stop. Click on the left side next to the line numbers to make a red dot.
+5. next
+6.  type p and the variable name
+7. next until finished
+8. q for quit
+
+TPS 3:
+1. There are 5 variables and 2 pointers.
+2. It comes out as random numbers and the pointers print 0x0 possible due to the variable creating an address. 
+3. to point a variable to something and putting it into the array.
+8. It makes sense because an array is similar to a pointer in where there is a address in each array cell.

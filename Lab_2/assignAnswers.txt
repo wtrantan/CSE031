@@ -1,0 +1,11 @@
+Assignment 1:
+1. line 22 gives the segmentation fault
+2. To fix it we change input to &input
+3. The sum was not getting added because it needed a reference
+4. The reference was added to the sum and a point in read_values for sum.
+
+Assignment 2: 
+1. The output works
+2. The bug is that the append replaces str1. 
+3. To fix it I tried setting str1 to NULL after the for loop. 
+4. The string is being broken up into parts.

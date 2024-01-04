@@ -1,0 +1,41 @@
+line 7: addi $s0, $zero, -15
+(I-format)
+addi $rt, $rs, -15
+opcode: 8 = 001000
+rs: $zero = 00000
+rt: $s0 = 10000
+immediate: 1111 1111 1111 0001
+binary: 0010 0000 0001 0000 1111 1111 1111 0001
+hex: 0x2010fff1
+
+line 14: slt $t0, $s0, $s1
+(R-format)
+slt $rd, $rs, $rt, shamt, funct
+ op: 0 = 000000
+    rs: $s0 = 10000
+    rt: $s1 = 10001
+    rd: $t0 = 01000
+    shamt: 00000
+    funct: 42 = 0x2a = 101010
+    Binary: 000000 10000 10001 01000 00000 101010
+    Hex: 0x0211402a
+
+
+line 17: beq $t0, $zero, LEEQ
+(I-format)
+    beq $rs, $rt, Immediate
+    op: 4 = 0x4 = 000100
+    rs: $t0 = 01000
+    rt: $zero = 00000
+    Imm: 6 = 0000 0000 0000 0110 (label is 6 lines under the instruction)
+    Binary: 0001 0001 0000 0000 0000 0000 0000 0110
+    Hex: 0x11000006
+
+line 20: j GRT
+    j address
+    op: 2 = 0x2 = 000010
+    address: 0x0040001c
+    address field: 00 0001 0000 0000 0000 0000 0111
+    full address(32 bits):0000 0000 0100 0000 0000 0000 0001 1100 
+    Binary: 0000 1000 0001 0000 0000 0000 0000 0111
+    Hex: 0x08100007

@@ -1,0 +1,32 @@
+TPS 1:
+4. 32 bits
+5. There are 3 types. (i, r, j). R = add, mult, slt
+I = lw, addi
+J = j, jal
+6. a. Line 7 is an I-type it has 4 fields (opcode, rs, rt, immediate)
+    b. 0x08 (opcode, rs, rt, immidiate)
+    opcode is 2 in hex.
+    rs is in $zero and the value is 16(1000) and 10 in hex
+    immediate is 25(11001) and the value is 19 in hex
+    c.  hex: 0x2010019 binary: 001000 00000 10000 000000011001
+        2 | 0 | 1 | 0 | 0 | 1 | 9
+7. a. Machine code is 0x0230402a, in binary it is 0000 0011 0000 0100 0010 1010
+    b. It is an r instruction type based off the most left digits, there are 6 fields (opcode, rs, rt, rd, shamt, funct)
+    c. op: 0, shmt: 0, funct: 10 1010, rd: 08
+    d. It is an slt instruction, we know this based off the opcode and hex. 
+    e. yes, they match up.
+
+8. 
+a. i format
+b. opcode is 0x05, s is 0x10, rt is 0x00
+c. the label is "LESS" at 0x004001c
+d. No, we can't fit 32 bits into 16 bits
+e The immediate valie is 1
+f. Machine code: 0001 0101 0000 0000 0000 0000 0001 1100 Hex: 0x1500001C
+
+9. it is in j format and there are 2 fields
+b. opcode is 0x2
+c. the label GREQ and the address is 0x00400030
+d. you can fit 26 bits into the instruction, which you need to convert to binary. 0001 0000 0000 0000 0011 0000
+e. The machine code: 0000 1000 0100 0000 0000 0011 0000 Hex: 0x08400030
+

@@ -1,0 +1,25 @@
+TPS 1:
+1. expected to print 2
+2. expected to print 2
+3. It printed 2
+4. It printed 44434241
+5. 
+a. two arrays
+b. they point to the same location
+c. also point to the same location
+6. there is 4 between each address of four_int
+7. 0x16b1332 -> 44(D) 0x16b1332d0 -> 43(C) 0x16b1332cc -> 42(B) 0x16b1332c8 -> 41(A) 
+8. 1 between each address of four_c 
+9. 0x16b1332cb -> 2 0x16b1332ca -> 2 0x16b1332c9 -> 2 -> 0x16b1332c8 -> 44434241
+10. One of it is an int which will make the difference of 4 between each address and one is char so the difference is 1 between each address
+
+TPS 2:
+1. Line 8 would dynamically allocate space for a array of ints
+2. would need a nested for loop to get the index of the the array.
+3. *(*(arr+i)+j) = 0
+4. to know how big to make the 2d array 
+5. done
+6. done
+7. done
+
+

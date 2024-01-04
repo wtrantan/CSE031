@@ -1,0 +1,22 @@
+TPS 1:
+1. A function will return a value while a procedure wont, and a method is a procedure to a class more prevalent in object oriented programming.
+2. done
+3. done
+4. Line 12. This instructs to jump to line 20, where line 20 adds the registers $a0 and $a1 and loads the value into $v0.
+5. We can't use j $ra instruction in this situation because the j operatior code is eant to read a label and not a register. The instrustion "jr $ra" is meant to read an address from a register and jump to that address.
+6. Line 11 is the return address.It is saved in register $ra. The value saved is 0. It doesn't make sense because it doesn't have a meaningful value. 
+7. an error occurs. "Error in : invalid prgram counter value: 0x00000000"
+8. The line after the original jump was called.
+9. IT should be correct.
+10. The new return address is: 0x0040001c. The output is 15.
+11. jal
+12. done
+
+TPS 2:
+1. The output is 38.
+2. It will have an infinite loop.
+3. The command jal allows the MIPS code to jump to the register specified and then save the return address (the line after the jal command was called) to the register $ra. Once the jal command was called again within. SUM, the original return addresswas lost with no way of returning to the MAIN function.
+4. we save the value of $s0to the stack using the commands: addi $sp, $sp, 4; sw $a0, 0($sp);
+5. The original value of $s0 is replaced by the value m. This is not really a problem unless the program doesn't properly account for this.
+6. done
+ 

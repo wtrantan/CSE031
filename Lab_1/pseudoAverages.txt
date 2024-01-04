@@ -1,0 +1,33 @@
+initialize variables like count, temp, user input, avg odd sum, avg even sum, count for the number of inputs
+While user input is not equal to 0:
+if count % 10 is equal to 1
+ordinal = "st"
+if count % 10 is equal to 2
+ordinal = "nd"
+if count % 10 is equal to 3
+ordinal = "rd"
+else ordinal = "th"
+
+print "Enter the" + count + ordinal + " number"
+
+Need a while loop to add up the integer in the number.
+    while temp != 0:
+        sum = sum + (temp % 10)
+        temp = temp / 10
+This is a basic way to add up and seperate the integers in the number. moding the number by 10 and then dividing it by 10 gives us the next set of numbers to add because dividing ints removes the decimal number.
+    end of while loop   
+
+if sum % 2 = 0 it is even
+even average = even average + user input // to add the sum of the even avg
+even count++
+else odd avg = odd avg + user input to add the sum of the odd avg
+odd count++
+
+end of while loop
+
+prints the even avg / even count
+
+prints the odd avg / odd count
+
+if even avg and odd avg equals 0 print "there is no average to compute"
+
